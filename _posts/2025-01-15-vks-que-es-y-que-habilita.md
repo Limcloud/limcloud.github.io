@@ -2,7 +2,7 @@
 title: "VKS (vSphere Kubernetes Services) desde cero, parte 1: Que es y qué habilita en vSphere?"
 date: 2025-12-29 13:00:00 -0600
 categories: [VMware, Kubernetes]
-tags: [VKS, vSphere, Kubernetes, Supervisor, VCF]2
+tags: [VKS, vSphere, Kubernetes, Supervisor, VCF]
 pin: false
 toc: true
 comments: true
