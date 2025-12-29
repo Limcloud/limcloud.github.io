@@ -51,9 +51,8 @@ Esto genera fricción real en entornos enterprise:
 
 VKS aparece para **romper ese silo** y unificar la operación.
 
-![Before vs After: vSphere + Kubernetes vs vSphere + VKS](/assets/img/vks/01-vks-before-after.png){: w="1200" h="675" }
+![Before vs After: vSphere + Kubernetes vs vSphere + VKS](/assets/img/2025-01-15-vks-que-es-y-que-habilita/01-vks-before-after.png){: w="1200" h="675" }
 
-> Tip: si todavía no tienes la imagen, deja el placeholder y luego lo reemplazamos cuando la generemos.
 
 ---
 
@@ -80,7 +79,7 @@ Significa que **vSphere se integra directamente con el Kubernetes control plane*
 Kubernetes sigue siendo Kubernetes.  
 La diferencia está en **cómo se integra y gobierna**.
 
-![Dónde vive VKS: capas en vSphere](/assets/img/vks/02-vks-layers.png){: w="1200" h="675" }
+![Dónde vive VKS: capas en vSphere](/assets/img/2025-01-15-vks-que-es-y-que-habilita/02-vks-layers.png){: w="1200" h="675" }
 
 ---
 
@@ -146,7 +145,7 @@ No es solo una decisión técnica, es una decisión **operativa y organizacional
 
 VKS no elimina la complejidad de Kubernetes, pero **sí elimina la complejidad de integrarlo y gobernarlo correctamente en entornos vSphere enterprise**.
 
-![Puente al Post 2: Control Plane vs Data Plane](/assets/img/vks/03-control-plane-data-plane.png){: w="1200" h="675" }
+![Puente al Post 2: Control Plane vs Data Plane](/assets/img/2025-01-15-vks-que-es-y-que-habilita/03-control-plane-data-plane.png){: w="1200" h="675" }
 
 ---
 
