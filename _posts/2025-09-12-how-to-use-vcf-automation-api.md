@@ -1,6 +1,6 @@
 ---
 title: "How to Use VCF Automation API"
-date: 2025-09-12 00:00:00 -0600
+date: 2025-12-29 00:00:00 -0600
 categories: [VMware, VCF, VCF Automation]
 tags: [VCF, VCF Automation, VMware, Aria Automation, API]
 description: Quick start guide to authenticate and make your first calls to the VMware Cloud Foundation (VCF) Automation API, plus a Postman setup.
