@@ -6,6 +6,8 @@ tags: [VKS, vSphere, Kubernetes, Supervisor, VCF]
 pin: false
 toc: true
 comments: true
+image:
+  path: /assets/img/2025-01-15-vks-que-es-y-que-habilita/Feature.png
 ---
 
 Si vienes de un mundo principalmente vSphere, es muy probable que ya hayas escuchado hablar de Kubernetes, contenedores, clusters, namespaces y todo el ecosistema cloud native.  
