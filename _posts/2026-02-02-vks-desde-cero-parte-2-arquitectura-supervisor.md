@@ -6,9 +6,7 @@ tags: [VKS, Supervisor, Kubernetes Architecture, vSphere, VCF]
 pin: false
 toc: true
 comments: true
-image:
-  path: /assets/img/vks/04-supervisor-architecture-overview.png
-  alt: "Arquitectura del Supervisor Cluster en vSphere Kubernetes Services"
+
 ---
 
 En el post anterior vimos qué es **vSphere Kubernetes Services (VKS)** y qué habilita dentro de vSphere.  
