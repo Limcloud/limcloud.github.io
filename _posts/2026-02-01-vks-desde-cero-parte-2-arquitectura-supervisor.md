@@ -1,6 +1,6 @@
 ---
 title: "VKS Desde Cero – Parte 2: Arquitectura de VKS, entendiendo el Supervisor Cluster"
-date: 2026-02-02 13:00:00 -0600
+date: 2026-02-01 13:00:00 -0600
 categories: [VMware, Kubernetes]
 tags: [VKS, Supervisor, Kubernetes Architecture, vSphere, VCF]
 pin: false
