@@ -9,10 +9,10 @@ comments: true
 
 ---
 
-En el post anterior vimos qué es **vSphere Kubernetes Services (VKS)** y qué habilita dentro de vSphere.  
-Ahora toca entrar en la parte técnica y entender **la arquitectura que hace posible todo esto**.
+En el post anterior vimos qué es vSphere Kubernetes Services (VKS) y qué habilita dentro de vSphere.  
+Ahora toca entrar en la parte técnica y entender la arquitectura que hace posible todo esto.
 
-El punto central de VKS es el **Supervisor Cluster**.  
+El punto central de VKS es el Supervisor Cluster.  
 Si entiendes qué es, cómo se despliega y qué componentes lo conforman, conceptos como authorization, networking y storage empiezan a encajar de forma natural, especialmente si ya administras entornos vSphere.
 
 ---
