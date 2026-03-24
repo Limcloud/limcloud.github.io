@@ -21,6 +21,7 @@ Hay algunos conceptos que es importante tener claros desde el inicio:
 - **VPC (Virtual Private Cloud)**: entorno de red aislado dentro de NSX que permite desplegar workloads (Pods y VMs) con su propio espacio de direcciones IP, routing y políticas, similar a lo que se ve en nubes públicas.
 - **Service CIDR**: rango interno de direcciones IP usado por Kubernetes para servicios tipo ClusterIP y otros componentes internos.
 - **Tier-0 Gateway**: salida north-south de las redes creadas dentro del modelo de VPC.
+  
 ---
 
 ## Paso 1 – Entrar a Supervisor Management
