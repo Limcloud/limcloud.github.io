@@ -7,7 +7,6 @@ toc: true
 comments: true
 ---
 
-## Introducción
 
 En este artículo voy a mostrar cómo habilitar vSphere Supervisor utilizando VCF Networking with VPC, que es el modelo más moderno para este tipo de despliegues dentro de VMware Cloud Foundation.
 
@@ -213,8 +212,6 @@ Entre los principales:
 A partir de este punto ya puedes empezar a consumir namespaces, desplegar workloads y habilitar servicios sobre el Supervisor.
 
 ---
-
-## Consideraciones de networking
 
 En el modelo de VCF Networking with VPC, las redes del Supervisor no son aisladas de forma independiente, sino que forman parte del diseño general de NSX.
 
