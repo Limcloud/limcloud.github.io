@@ -26,7 +26,7 @@ Hay algunos conceptos que es importante tener claros desde el inicio:
 
 ## Paso 1 – Entrar a Supervisor Management
 
-En **vCenter**, abrimos el menú principal y seleccionamos **Supervisor Management**.
+En vCenter, abrimos el menú principal y seleccionamos Supervisor Management.
 
 ![Supervisor Management](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/01.png)
 
