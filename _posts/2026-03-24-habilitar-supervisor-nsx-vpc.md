@@ -1,5 +1,5 @@
 ---
-title: "Habilitando vSphere Supervisor utilizando NSX VPCº"
+title: "Habilitando vSphere Supervisor utilizando NSX VPC"
 date: 2026-03-24 09:00:00 -0600
 categories: [VMware, Kubernetes]
 tags: [VCF, vSphere Supervisor, NSX, VPC, VKS, Kubernetes]
