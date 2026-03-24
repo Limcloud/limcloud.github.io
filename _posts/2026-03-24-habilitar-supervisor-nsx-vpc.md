@@ -129,7 +129,7 @@ Aunque desde el wizard se ve simple, detrás de eso están pasando varias cosas 
 
 ## Paso 7.1 – Elegir correctamente el Service CIDR
 
-Elegir correctamente el Service CIDR es clave ya que se usa internamente por Kubernetes para:
+Elegir correctamente el Service CIDR es clave ya que se usa internamente por Kubernetes y para cambiarlo básicamente se debe reconfigurar por completo el supervisor, algunos servicios que lo utilizan son:
 
 - Servicios tipo ClusterIP  
 - Componentes internos  
@@ -143,11 +143,8 @@ El Service CIDR no debe hacer overlap con:
 - redes NSX  
 - otros bloques existentes  
 
-Ejemplo común:
+Por ejemplo: 10.96.0.0/16
 
-```
-10.96.0.0/16
-```
 
 ## Paso 8 – Seleccionar el tamaño del Control Plane
 
