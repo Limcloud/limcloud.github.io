@@ -27,11 +27,11 @@ Hay algunos conceptos que es importante tener claros desde el inicio:
 
 En **vCenter**, abrimos el menú principal y seleccionamos **Supervisor Management**.
 
-![Supervisor Management](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/01.png)
+![Supervisor Management](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/01.png)
 
 Luego hacemos clic en **Get Started**.
 
-![Get Started](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/02.png)
+![Get Started](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/02.png)
 
 ---
 
@@ -41,7 +41,7 @@ En el asistente, seleccionamos la opción:
 
 **VCF Networking with VPC**
 
-![VCF Networking with VPC](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/03.png)
+![VCF Networking with VPC](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/03.png)
 
 Este punto es importante porque cambia completamente la lógica del despliegue. En lugar de trabajar con segmentos tradicionales, el Supervisor se integra con el modelo de NSX VPC, donde el aislamiento y consumo de redes gira alrededor de Projects y VPCs.
 
@@ -51,7 +51,7 @@ Este punto es importante porque cambia completamente la lógica del despliegue. 
 
 Antes de llegar a este punto, ya debemos haber creado al menos un vSphere Zone.
 
-![vSphere Zone](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/04.png)
+![vSphere Zone](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/04.png)
 
 Aquí definimos en qué Zone se va a desplegar el Supervisor y además le asignamos un nombre.
 
@@ -68,7 +68,7 @@ En mi caso utilicé una sola vSphere Zone porque el objetivo era un laboratorio.
 
 En esta misma etapa aparece la opción **Enable control plane high availability**.
 
-![Control Plane HA](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/05.png)
+![Control Plane HA](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/05.png)
 
 Al marcarla, el despliegue crea tres VMs para el control plane del Supervisor.
 
@@ -90,7 +90,7 @@ Aquí debemos seleccionar un Storage Policy compatible con el datastore que quer
 
 En la sección de management network definimos la red donde van a desplegarse los nodos del control plane.
 
-![Management Network](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/07.png)
+![Management Network](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/07.png)
 
 El Supervisor requiere un bloque de al menos 5 direcciones IP consecutivas.
 
@@ -112,7 +112,7 @@ Además:
 
 Aquí es donde se debe configurar el modelo de VPC.
 
-![Workload Networking](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/08.png)
+![Workload Networking](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/08.png)
 
 Seleccionamos:
 
@@ -151,7 +151,7 @@ Ejemplo común:
 
 ## Paso 8 – Seleccionar el tamaño del Control Plane
 
-![Control Plane Size](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/09.png)
+![Control Plane Size](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/09.png)
 
 Aquí definimos el tamaño de las VMs del control plane.
 
@@ -167,7 +167,7 @@ En esta misma pantalla también podemos marcar **Export Configuration**, lo cual
 
 ## Paso 9 – Revisar y desplegar
 
-![Review](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/10.png)
+![Review](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/10.png)
 
 Aquí revisamos toda la configuración antes de continuar:
 
@@ -196,7 +196,7 @@ Los estados deben aparecer como:
 
 Una vez habilitado el Supervisor, ya quedan disponibles varios componentes base del stack.
 
-![Review](assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/11.png)
+![Review](/assets/img/2026-03-24-habilitar-supervisor-nsx-vpc/11.png)
 
 
 Entre los principales:
